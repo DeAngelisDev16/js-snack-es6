@@ -14,3 +14,27 @@ const studente={
 for ( let key in studente){
     console.log(key, studente[key]);
 }
+
+const studentList = [
+    {
+        name : 'Alessio',
+        lastname : 'De Angelis',
+        age : 28,
+    
+    },
+    {
+        name: 'Francesco',
+        lastname: 'Bianchi',
+        age: 25
+    }, 
+
+    {
+        name: 'Luigi',
+        lastname: 'Forti',
+        age: 30
+    } 
+
+    
+];
+
+console.log(studentList);
