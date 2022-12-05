@@ -2,9 +2,15 @@
 2.** Stampare a schermo attraverso un ciclo `for-in` tutte le proprietà dell'oggetto.
 3. Creare un array di oggetti di studenti (ossìa oggetti con le proprietà sopra descritte) e mostriamoli. */
 
-const studente = {
-    name : 'Alessio';
-    cognome : 'De Angelis';
-    age : 28
+const studente={
+    name : 'Alessio',
+    lastname : 'De Angelis',
+    age : 28,
+
+}
     
+
+
+for ( let key in studente){
+    console.log(key, studente[key]);
 }
