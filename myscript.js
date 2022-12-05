@@ -47,7 +47,7 @@ console.log(studentList);
 
    Dividi le automobili in 3 array separati: nel primo array solo le auto a benzina, nel secondo solo le auto a diesel, nel terzo il resto delle auto.
    Infine stampa separatamente i 3 array. */
-   const benzina =[];
+   /* const benzina =[];
    const diesel =[];
    const elettrico =[];
    const carList = [
@@ -103,4 +103,97 @@ console.log(studentList);
     }
    ]
 
-   console.log(carList)
+   //console.log(carList);
+
+   for(let i = 0; i < carList; i++){
+    //console.log(carList[i]);
+    if (carList.includes('benzina') ){
+        benzina.push(carList[i]);
+    } else if (carList.includes('elettrica')){
+        elettrico.push(carList[i]);
+
+    }else if ()
+   } */
+
+
+
+   //======================================================================================
+/* Crea 10 oggetti che rappresentano una zucchina, 
+ * indicandone per ognuno varietà, peso e lunghezza.
+ *
+ * Calcola quanto pesano tutte le zucchine. */
+
+const courgetteList = [
+    {
+        varietà : 'boh',
+        peso: 1 ,
+        lunghezza : '30cm'
+
+        
+    },
+    {
+        varietà : 'boh',
+        peso: 1 ,
+        lunghezza : '30cm'
+
+        
+    },
+    {
+        varietà : 'boh',
+        peso: 1 ,
+        lunghezza : '30cm'
+
+        
+    },
+    {
+        varietà : 'boh',
+        peso: 1 ,
+        lunghezza : '30cm'
+
+        
+    },
+    {
+        varietà : 'boh',
+        peso: 1 ,
+        lunghezza : '30cm'
+
+        
+    },
+    {
+        varietà : 'boh',
+        peso: 1 ,
+        lunghezza : '30cm'
+
+        
+    },
+    {
+        varietà : 'boh',
+        peso: 1 ,
+        lunghezza : '30cm'
+
+        
+    },
+    {
+        varietà : 'boh',
+        peso: 1 ,
+        lunghezza : '30cm'
+
+        
+    },
+    {
+        varietà : 'boh',
+        peso: 1 ,
+        lunghezza : '30cm'
+
+        
+    },
+    {
+        varietà : 'boh',
+        peso: 1 ,
+        lunghezza : '30cm'
+
+        
+    },
+];
+
+console.log(courgetteList)
