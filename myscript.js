@@ -2,7 +2,7 @@
 2.** Stampare a schermo attraverso un ciclo `for-in` tutte le proprietà dell'oggetto.
 3. Creare un array di oggetti di studenti (ossìa oggetti con le proprietà sopra descritte) e mostriamoli. */
 
-const studente={
+/* const studente={
     name : 'Alessio',
     lastname : 'De Angelis',
     age : 28,
@@ -38,3 +38,69 @@ const studentList = [
 ];
 
 console.log(studentList);
+ */
+
+//============================================================================================================
+
+/* Crea un array composto da 10 automobili.
+   Ogni oggetto automobile avrà le seguenti proprietà: marca, modello e alimentazione (benzina, diesel, gpl, elettrico, metano).
+
+   Dividi le automobili in 3 array separati: nel primo array solo le auto a benzina, nel secondo solo le auto a diesel, nel terzo il resto delle auto.
+   Infine stampa separatamente i 3 array. */
+   const benzina =[];
+   const diesel =[];
+   const elettrico =[];
+   const carList = [
+    {
+        marca: 'Kia',
+        modello: 'Rio',
+        alimentazione: 'benzina'
+    },
+    {
+        marca: 'Mercedes',
+        modello: 'Gla',
+        alimentazione: 'diesel'
+    },
+    {
+        marca: 'Fiat',
+        modello: '500',
+        alimentazione: 'elettrica'
+    },
+    {
+        marca: 'Ford',
+        modello: 'Focus',
+        alimentazione: 'diesel'
+    },
+    {
+        marca: 'Opel',
+        modello: 'Mokka',
+        alimentazione: 'elettrica'
+    },
+    {
+        marca: 'Pevgeot',
+        modello: '206',
+        alimentazione: 'benzina'
+    },
+    {
+        marca: 'Kia',
+        modello: 'Stonic',
+        alimentazione: 'gpl'
+    },
+    {
+        marca: 'Kia',
+        modello: 'Sportage',
+        alimentazione: 'gpl'
+    },
+    {
+        marca: 'Ford',
+        modello: 'puma',
+        alimentazione: 'benzina'
+    },
+    {
+        marca: 'Renault',
+        modello: 'Capture',
+        alimentazione: 'elettrica'
+    }
+   ]
+
+   console.log(carList)
