@@ -242,7 +242,7 @@ for(let i = 0; i < courgetteList; i++){
 // Crea un nuovo array con la lista dei mammiferi.
 // Bonus 1 : trasforma ogni valore di ogni animale in tutto maiuscolo tranne la prima lettera, tipo // leone => lEONE, canidi => cANIDI
 
-const animals = [
+/* const animals = [
     {
         nome: 'leone',
         famiglia: 'felidi',
@@ -313,4 +313,78 @@ const mammiferiList = animals.filter((animal)=> {
     return false;
 })
 
-console.log(mammiferiList)
+console.log(mammiferiList); */
+
+
+//==========================================================================================================================================
+
+/***
+ * 
+Crea un array di oggetti che rappresentano delle persone.
+Ogni persona ha un nome, un cognome e un'età, creiamone almeno una decina.
+
+Crea quindi un nuovo array inserendo, per ogni persona, una frase con il nome e cognome e l'indicazione se può guidare, in base all'età.
+
+ */
+
+const persone = [
+    {
+        firstname: 'Alessio',
+        lastname : 'De Angelis',
+        age: 28
+    },
+    {
+        firstname: 'Claudio',
+        lastname : 'De Angelis',
+        age: 17
+    },
+    {
+        firstname: 'Alessio',
+        lastname : 'De Cubellis',
+        age: 3
+    },
+    {
+        firstname: 'Francesca',
+        lastname : 'De Angelis',
+        age: 21
+    },
+    {
+        firstname: 'Federica',
+        lastname : 'De Angelis',
+        age: 18
+    },
+    {
+        firstname: 'Francesco',
+        lastname : 'Bianchi',
+        age: 30
+    },
+    {
+        firstname: 'Alessio',
+        lastname : 'Rossi',
+        age: 33
+    },
+    {
+        firstname: 'Alessio',
+        lastname : 'Verdi',
+        age: 10
+    },
+    {
+        firstname: 'Alessio',
+        lastname : 'Angelis',
+        age: 45
+    },
+    {
+        firstname: 'Alessio',
+        lastname : 'De Angelis',
+        age: 1
+    },
+]
+
+
+const canDrive = persone.filter((persona)=> {
+    if(persone.age >= 18){
+        return true;
+        
+    }
+    return false;
+})
