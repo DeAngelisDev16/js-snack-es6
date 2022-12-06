@@ -229,7 +229,7 @@ for(let i = 0; i < courgetteList; i++){
 
 //=========================================================================================================================================
 
-// Crea un array di oggetti che rappresentano degli animali.
+// Crea un array di oggetti che rappresentano degli animali. V
 // Ogni animale ha un nome, una famiglia e una classe.
 // Es:
 
@@ -303,4 +303,14 @@ const animals = [
         classe: 'uccelli'
 
     },
-]
+];
+
+const mammiferiList = animals.filter((animal)=> {
+    if(animal.classe === 'mammiferi'){
+        return true;
+
+    }
+    return false;
+})
+
+console.log(mammiferiList)
