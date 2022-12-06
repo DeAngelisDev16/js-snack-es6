@@ -294,7 +294,7 @@ const animals = [
     {
         nome: 'struzzo',
         famiglia: 'fasianidi',
-        classe: 'mammiferi'
+        classe: 'uccelli'
 
     },
     {
