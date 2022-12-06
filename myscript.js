@@ -48,6 +48,7 @@ console.log(studentList);
    Dividi le automobili in 3 array separati: nel primo array solo le auto a benzina, nel secondo solo le auto a diesel, nel terzo il resto delle auto.
    Infine stampa separatamente i 3 array. */
    /* const benzina =[];
+   
    const diesel =[];
    const elettrico =[];
    const carList = [
@@ -106,14 +107,34 @@ console.log(studentList);
    //console.log(carList);
 
    for(let i = 0; i < carList; i++){
-    //console.log(carList[i]);
-    if (carList.includes('benzina') ){
-        benzina.push(carList[i]);
-    } else if (carList.includes('elettrica')){
-        elettrico.push(carList[i]);
+       //console.log(carList[i]);
+       const auto = carList[i];
+       if (auto.alimentazione==='benzina') {
+           benzina.push(auto);
+           
+       } else if (auto.alimentazione==='elettrica'){
+           elettrico.push(auto);
+   
+       } else if (auto.alimentazione==='diesel'){
+           diesel.push(auto);
+           
+       }
 
-    }else if ()
-   } */
+   }
+   */
+
+
+
+   
+    
+
+    
+    
+    
+    
+    
+    
+   
 
 
 
@@ -123,7 +144,7 @@ console.log(studentList);
  *
  * Calcola quanto pesano tutte le zucchine. */
 
-const courgetteList = [
+/* const courgetteList = [
     {
         varietà : 'boh',
         peso: 1 ,
@@ -196,4 +217,90 @@ const courgetteList = [
     },
 ];
 
-console.log(courgetteList)
+
+//console.log(courgetteList);
+let courgetteWeight;
+
+for(let i = 0; i < courgetteList; i++){
+    
+    //console.log(courgetteWeight);
+}
+ */
+
+//=========================================================================================================================================
+
+// Crea un array di oggetti che rappresentano degli animali.
+// Ogni animale ha un nome, una famiglia e una classe.
+// Es:
+
+// [
+//   { nome: 'leone', famiglia: 'felidi', classe: 'mammiferi' },
+//   { nome: 'cane', famiglia: 'canidi', classe: 'mammiferi' },
+//   { nome: 'gallina', famiglia: 'fasianidi', classe: 'uccelli' },
+// ]
+
+// Crea un nuovo array con la lista dei mammiferi.
+// Bonus 1 : trasforma ogni valore di ogni animale in tutto maiuscolo tranne la prima lettera, tipo // leone => lEONE, canidi => cANIDI
+
+const animals = [
+    {
+        nome: 'leone',
+        famiglia: 'felidi',
+        classe: 'mammiferi'
+
+    },
+    {
+        nome: 'cane',
+        famiglia: 'canidi',
+        classe: 'mammiferi'
+
+    },
+    {
+        nome: 'gallina',
+        famiglia: 'fasianidi',
+        classe: 'uccelli'
+
+    },
+    {
+        nome: 'tigre',
+        famiglia: 'felidi',
+        classe: 'mammiferi'
+
+    },
+    {
+        nome: 'pantera',
+        famiglia: 'felidi',
+        classe: 'mammiferi'
+
+    },
+    {
+        nome: 'lupo',
+        famiglia: 'canidi',
+        classe: 'mammiferi'
+
+    },
+    {
+        nome: 'fenicottero',
+        famiglia: 'fasianidi',
+        classe: 'uccelli'
+
+    },
+    {
+        nome: 'gatto',
+        famiglia: 'felidi',
+        classe: 'mammiferi'
+
+    },
+    {
+        nome: 'struzzo',
+        famiglia: 'fasianidi',
+        classe: 'mammiferi'
+
+    },
+    {
+        nome: 'tacchino',
+        famiglia: 'fasianidi',
+        classe: 'uccelli'
+
+    },
+]
